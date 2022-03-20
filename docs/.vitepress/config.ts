@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'JavaScript 心智 模型',
+  title: 'JavaScript 心智💗模型',
   description: 'Vite & Vue powered static site generator.',
   lastUpdated: true,
 
