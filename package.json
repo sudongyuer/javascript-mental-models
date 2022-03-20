@@ -1,0 +1,16 @@
+{
+  "name": "javascript-mental-models",
+  "version": "1.0.0",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "main": "index.js",
+  "author": "sudongyuer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "vitepress": "^0.22.3"
+  }
+}
