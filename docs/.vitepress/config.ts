@@ -2,15 +2,15 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'JavaScript Mental Modules',
+  title: 'JavaScript 心智 模型',
   description: 'Vite & Vue powered static site generator.',
   lastUpdated: true,
 
   themeConfig: {
-    repo: 'vuejs/vitepress',
+    repo: 'sudongyuer/javascript-mental-models',
     docsDir: 'docs',
     docsBranch: 'main',
-    editLinks: true,
+    editLinks: false,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
 
@@ -20,22 +20,11 @@ export default defineConfig({
       indexName: 'vitepress'
     },
 
-    carbonAds: {
-      carbon: 'CEBDT27Y',
-      custom: 'CKYD62QM',
-      placement: 'vuejsorg'
-    },
-
     nav: [
-      { text: 'Guide', link: '/', activeMatch: '^/$|^/guide/' },
+      { text: 'Start', link: '/guide', activeMatch: '^/$|^/guide/' },
       {
-        text: 'Config Reference',
-        link: '/config/basics',
-        activeMatch: '^/config/'
-      },
-      {
-        text: 'Release Notes',
-        link: 'https://github.com/vuejs/vitepress/releases'
+        text: 'About ME',
+        link: 'https://github.com/sudongyuer'
       }
     ],
 
@@ -49,44 +38,13 @@ export default defineConfig({
 function getGuideSidebar() {
   return [
     {
-      text: 'Introduction',
+      text: '开始探索我们的JavaScript宇宙吧🌈',
       children: [
-        { text: '第一章-什么是心智模型', link: '/' },
-        { text: '第二章-JavaScript宇宙', link: '/guide/getting-started' },
-        { text: '第三章-值与变量', link: '/guide/configuration' },
-        { text: 'Asset Handling', link: '/guide/assets' },
-        { text: 'Markdown Extensions', link: '/guide/markdown' },
-        { text: 'Using Vue in Markdown', link: '/guide/using-vue' },
-        { text: 'Deploying', link: '/guide/deploy' }
-      ]
-    },
-    {
-      text: 'Advanced',
-      children: [
-        { text: 'Frontmatter', link: '/guide/frontmatter' },
-        { text: 'Theming', link: '/guide/theming' },
-        { text: 'API Reference', link: '/guide/api' },
-        {
-          text: 'Differences from Vuepress',
-          link: '/guide/differences-from-vuepress'
-        }
-      ]
-    }
-  ]
-}
-
-function getConfigSidebar() {
-  return [
-    {
-      text: 'App Config',
-      children: [{ text: 'Basics', link: '/config/basics' }]
-    },
-    {
-      text: 'Theme Config',
-      children: [
-        { text: 'Homepage', link: '/config/homepage' },
-        { text: 'Algolia Search', link: '/config/algolia-search' },
-        { text: 'Carbon Ads', link: '/config/carbon-ads' }
+        { text: '第一章-什么是心智模型', link: '/guide/第一章-心智模型' },
+        { text: '第二章-JavaScript宇宙', link: '/guide/第二章-JavaScript宇宙' },
+        { text: '第三章-值与变量', link: '/guide/第三章-值与变量' },
+        { text: '第四章-从内部学习', link: '/guide/第四章-从内部学习' },       
+        { text: '第五章-会见原始值', link: '/guide/第五章-会见原始值' },       
       ]
     }
   ]
