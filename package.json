@@ -1,6 +1,7 @@
 {
   "name": "javascript-mental-models",
   "version": "1.0.0",
+  "description": "JavaScript mental models",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
