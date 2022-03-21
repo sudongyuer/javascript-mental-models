@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'JavaScript 心智💗模型',
   description: 'Vite & Vue powered static site generator.',
   lastUpdated: true,
+  base:"/javascript-mental-models/",
 
   themeConfig: {
     repo: 'sudongyuer/javascript-mental-models',
@@ -43,8 +44,8 @@ function getGuideSidebar() {
         { text: '第一章-什么是心智模型', link: '/guide/第一章-心智模型' },
         { text: '第二章-JavaScript宇宙', link: '/guide/第二章-JavaScript宇宙' },
         { text: '第三章-值与变量', link: '/guide/第三章-值与变量' },
-        { text: '第四章-从内部学习', link: '/guide/第四章-从内部学习' },       
-        { text: '第五章-会见原始值', link: '/guide/第五章-会见原始值' },       
+        { text: '第四章-从内部学习', link: '/guide/第四章-从内部学习' },
+        { text: '第五章-会见原始值', link: '/guide/第五章-会见原始值' },
       ]
     }
   ]
