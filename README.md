@@ -10,4 +10,6 @@
 如何您觉得我的小册子给您带来了一些对JavaScript理解的帮助，你可以给我买一杯Coffee感谢一些我的辛苦付出 ☕️ 您也可以加我`VX:sudongyuer` 和我交流
 <br>
 持续更新中 ～ 🚀🚀🚀
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0gd6tpd1tj20u00u0q4s.jpg)
+<p align="center">
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h0gd6tpd1tj20u00u0q4s.jpg" height="400">
+</p>
