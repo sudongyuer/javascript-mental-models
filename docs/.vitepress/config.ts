@@ -46,6 +46,7 @@ function getGuideSidebar() {
         { text: '第三章-值与变量', link: '/guide/第三章-值与变量' },
         { text: '第四章-从内部学习', link: '/guide/第四章-从内部学习' },
         { text: '第五章-会见原始值', link: '/guide/第五章-会见原始值' },
+        { text: '第六章-会见对象与函数', link: '/guide/第六章-会见对象与函数' },
       ]
     }
   ]
