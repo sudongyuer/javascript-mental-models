@@ -48,6 +48,7 @@ function getGuideSidebar() {
         { text: '第五章-会见原始值', link: '/guide/第五章-会见原始值' },
         { text: '第六章-会见对象与函数', link: '/guide/第六章-会见对象与函数' },
         { text: '第七章-平等的价值', link: '/guide/第七章-平等的价值' },
+        { text: '第八章-Properties(属性)', link: '/guide/第八章-Properties(属性)' },
       ]
     }
   ]
