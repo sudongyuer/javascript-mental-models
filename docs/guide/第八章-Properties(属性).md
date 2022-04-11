@@ -99,7 +99,7 @@ sherlock.age = 65;
 
 - 我们跟着sherlock的线，然后选age属性的线
 
-<img src="/Users/sudongyu/Library/Application Support/typora-user-images/image-20220410195742272.png" alt="image-20220410195742272" style="zoom:33%;" />
+<img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h15w9wwshyj21060kqwfu.jpg" alt="image-20220410195742272" style="zoom:33%;" />
 
 注意，我们没有按照age线写上64岁。
 
@@ -182,15 +182,15 @@ console.log(sherlock.boat.name); // TypeError!
 
 - 属性是线——有点像变量。它们都指向值。与变量不同，属性在我们的宇宙中是从`对象`开始的，变量是从`代码`开始的
 
--  属性属于特定的对象。一个对象上不能有多个具有相同名称的属性。
+- 属性属于特定的对象。一个对象上不能有多个具有相同名称的属性。
 
 - 一般来说，你可以用三个步骤来执行赋值:
 
   1. 找出哪根线在左边
   2. 找出右边的值
-  3.  把导线指向那个值
+  3. 把导线指向那个值
 
--  一个表达式 像下面的
+- 一个表达式 像下面的
 
   ```
   obj.property
@@ -199,7 +199,7 @@ console.log(sherlock.boat.name); // TypeError!
    是分三步计算:
 
   1. 找出`.`左边的值
-  2.  如果是` null`或` undefined `，则抛出一个错误。
+  2. 如果是` null`或` undefined `，则抛出一个错误。
   3. 如果该属性存在，结果就是它所指向的值。如果该属性不存在，则结果为`undefined `。
 
  注意，这种属性的心理模型仍然有些简化。目前它已经足够好了，但随着您对JavaScript领域的了解越来越多，它还需要进一步扩展。
