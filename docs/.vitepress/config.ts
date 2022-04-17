@@ -50,6 +50,7 @@ function getGuideSidebar() {
         { text: '第七章-平等的价值', link: '/guide/第七章-平等的价值' },
         { text: '第八章-Properties(属性)', link: '/guide/第八章-Properties(属性)' },
         { text: '第九章-突变', link: '/guide/第九章-突变' },
+        { text: '第十章-原型', link: '/guide/第十章-原型' },
       ]
     }
   ]
