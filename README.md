@@ -3,6 +3,9 @@
 <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2qd7b4ji9j20rs12w0x2.jpg" height="500">
 </p>
 
+## 在线地址
+https://sudongyuer.github.io/javascript-mental-models/
+
 
 ## 你好👋我是速冻鱼🐟 这个小册的作者
 
