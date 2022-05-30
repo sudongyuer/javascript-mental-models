@@ -28,7 +28,7 @@ console.log(john.surname); // ?
 console.log(john.address.city); // ?
 ```
 
-上面的答案是什么？，通过我们之前内容，尝试用JS的心智模型来回答它吧
+上面的答案是什么？通过我们之前内容，尝试用JS的心智模型来回答它吧
 
 ```js
 console.log(sherlock.surname); // "Holmes"
@@ -66,7 +66,7 @@ let sherlock = {
 
 在这里，我们可以看到sherlock变量指向我们创建的一个对象。该对象有两个属性。它的surname属性指向“Holmes”字符串值，它的age属性指向64个数字值。
 
- 重要的是，**属性不包含值——它们指向值!**记住，我们的宇宙充满了`电线`。其中一些从代码(变量)开始，另一些从对象(属性)开始。所有导线总是指向值。 
+ 重要的是，**属性不包含值——它们指向值!** 记住，我们的宇宙充满了`电线`。其中一些从代码(变量)开始，另一些从对象(属性)开始。所有导线总是指向值。 
 
 在阅读本文之前，您可能会认为值存在于对象“内部”，因为它们出现在代码的“内部”。这种直觉经常会导致错误，所以我们会“在电线中思考”。再看一下代码和图表。在继续之前，确保你对他们感到舒服。
 
@@ -142,7 +142,7 @@ console.log(sherlock.boat); // ?
 
    b.如果**不存在**，则使用' undefined '值回答。
 
-这些规则有点简单，但它们已经告诉了我们很多关于JavaScript如何工作的信息!例如，sherlock指向一个没有boat属性的对象。所以`sherlock.Boat`给出的答案是undefined
+这些规则有点简单，但它们已经告诉了我们很多关于JavaScript如何工作的信息!例如，sherlock指向一个没有boat属性的对象。所以`sherlock.boat`给出的答案是undefined
 
 ```js
 let sherlock = { surname: 'Holmes', age: 64 };
@@ -151,7 +151,7 @@ console.log(sherlock.boat); // undefined
 
 注意，这并不意味着我们的对象有一个指向undefined的boat属性!它只有两个属性 surname 和 age
 
-人们很容易想到`sherlock.Boat`直接对应于我们心理模型中的属性概念，但这并不完全正确。这是一个`问题`，所以JavaScript`遵循规则`来回答这个问题。
+人们很容易想到`sherlock.boat`直接对应于我们心理模型中的属性概念，但这并不完全正确。这是一个`问题`，所以JavaScript`遵循规则`来回答这个问题。
 
 它观察‘sherlock’指向的对象，发现它**没有**的‘boat’属性，并返回给我们一个`undefined`的值，因为**这就是规则所说的**。这其中没有更深层次的原因，`计算机遵循规则`。
 
