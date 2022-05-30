@@ -9,7 +9,7 @@
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzj29cdlsuj20s40i2gmu.jpg" alt="image-20220219194800337" style="zoom:50%;" />
 
-可以想象一下我们是一个小人站在地球上，手里拿着要执行的code，上面有一条条指令，值存在于离我们比较远的星球上`boolean `、`number`、`string`、`symbol`、`null`、`undifined`、`object`、`function`
+可以想象一下我们是一个小人站在地球上，手里拿着要执行的code，上面有一条条指令，值存在于离我们比较远的星球上`boolean`、`number`、`string`、`symbol`、`null`、`undifined`、`object`、`function`
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzj28oyn9pj20uu0u0gnw.jpg" alt="image-20220219194727606" style="zoom:50%;" />
 
@@ -70,7 +70,7 @@ console.log(typeof(/(hello|goodbye)/)); // "object"
 
 ⚠️ 你可能听说过everything 都是对象。这是一个流行的都市传说，但它不是真的。
 
-虽然像“hi”. touppercase()这样的代码使“hi”看起来像一个对象，但这只是一种错觉。当您这样做时，JavaScript会创建一个临时对象，然后立即丢弃它。如果这个机制还不适合你，那也没关系。这确实相当令人困惑!  现在，您只需要记住原始值(如数字和字符串)不是对象。
+虽然像 `"hi".toUpperCase()` 这样的代码使“hi”看起来像一个对象，但这只是一种错觉。当您这样做时，JavaScript会创建一个临时对象，然后立即丢弃它。如果这个机制还不适合你，那也没关系。这确实相当令人困惑!  现在，您只需要记住原始值(如数字和字符串)不是对象。
 
 ## Expressions
 
