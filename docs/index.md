@@ -1,4 +1,4 @@
-# JavaScript Mental models
+# JavaScript Mental Models
 <p align="center">
 <img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h2qd7b4ji9j20rs12w0x2.jpg" height="500">
 </p>
