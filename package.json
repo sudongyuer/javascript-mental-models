@@ -4,9 +4,11 @@
   "description": "JavaScript mental models",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"pnpm exec turbo run build",
+    "build": "pnpm exec turbo run build",
     "changeset": "changeset add",
-    "version": "changeset version"
+    "version": "changeset version",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.23.0",
-    "turbo": "^1.2.16",
-    "@sudongyuer/eslint-config":"^0.1.2"
+    "@sudongyuer/eslint-config":"^0.1.2",
+    "eslint": "^8.19.0",
+    "turbo": "^1.2.16"
   }
 }
