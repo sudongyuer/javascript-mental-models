@@ -1,0 +1,35 @@
+name: Github Action Deploy docs
+on:
+  push:
+    branches:
+      - master
+env:
+  CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store
+
+permissions: 
+  contents: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout code repository
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: setup node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+    - name: install pnpm
+      run: npm i pnpm@latest -g
+    - name: install dependencies
+      run: | 
+        pnpm install
+        pnpm run build
+    - name: Build and Deploy
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
+      with:
+        token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages-deploy
+        folder: packages/learn-eslint-doc/docs/.vitepress/dist
