@@ -1,0 +1,26 @@
+{
+  "name": "javascript-mental-models-doc",
+  "version": "1.0.0",
+  "description": "JavaScript mental models",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudongyuer/javascript-mental-models"
+  },
+  "keywords": [
+    "javascript",
+    "mental models",
+    "study"
+  ],
+  "main": "index.js",
+  "author": "sudongyuer",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4"
+  }
+}
