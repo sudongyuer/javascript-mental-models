@@ -1,17 +1,28 @@
 {
-  "name": "javascript-mental-models",
+  "name": "javascript-mental-models-monorepo",
   "version": "1.0.0",
   "description": "JavaScript mental models",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"pnpm exec turbo run build",
+    "changeset": "changeset add",
+    "version": "changeset version"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudongyuer/javascript-mental-models"
+  },
+  "keywords": [
+    "javascript",
+    "mental models",
+    "study"
+  ],
   "main": "index.js",
   "author": "sudongyuer",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^17.0.21",
-    "vitepress": "^0.22.3"
+    "@changesets/cli": "^2.23.0",
+    "turbo": "^1.2.16",
+    "@sudongyuer/eslint-config":"^0.1.2"
   }
 }
